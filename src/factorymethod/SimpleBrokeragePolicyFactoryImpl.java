@@ -1,6 +1,6 @@
 package factorymethod;
 
-public class BrokeragePolicyFactoryImpl implements BrokeragePolicyFactory {
+public class SimpleBrokeragePolicyFactoryImpl implements BrokeragePolicyFactory {
     public BrokeragePolicy of(ActionType actionType){
         switch (actionType){
             case PURCHASE:
