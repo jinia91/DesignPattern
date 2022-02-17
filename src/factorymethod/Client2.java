@@ -8,11 +8,11 @@ import static factorymethod.ActionType.PURCHASE;
 import static factorymethod.ActionType.RENT;
 
 public class Client2 {
-    static Map<ActionType, Supplier<BrokeragePolicyFactory>> createConcreteFactory;
+    static Map<ActionType, BrokeragePolicyFactory> createConcreteFactory;
     static {
         createConcreteFactory = new HashMap<>();
-        createConcreteFactory.put(PURCHASE,PurchaseBrokeragePolicyFactoryImpl::new);
-        createConcreteFactory.put(RENT,RentalBrokeragePolicyFactoryImpl::new);
+        createConcreteFactory.put(PURCHASE,new PurchaseBrokeragePolicyFactoryImpl());
+        createConcreteFactory.put(RENT,new RentalBrokeragePolicyFactoryImpl());
     }
 
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Client2 {
 
     private static void orderAndCalculateBrokerageAmount(ActionType actionType, long price) {
 
-        BrokeragePolicyFactory brokeragePolicyFactory = createConcreteFactory.get(actionType).get();
+        BrokeragePolicyFactory brokeragePolicyFactory = createConcreteFactory.get(actionType);
         BrokeragePolicy brokeragePolicy = brokeragePolicyFactory.of(actionType);
         long calculatedBrokerageAmount = brokeragePolicy.calculate(price);
         System.out.println("calculatedBrokerageAmount = " + calculatedBrokerageAmount);

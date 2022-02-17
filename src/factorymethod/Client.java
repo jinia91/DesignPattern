@@ -1,10 +1,5 @@
 package factorymethod;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.function.Supplier;
-
 import static factorymethod.ActionType.PURCHASE;
 import static factorymethod.ActionType.RENT;
 
@@ -22,6 +17,4 @@ public class Client {
         long calculatedBrokerageAmount = brokeragePolicy.calculate(price);
         System.out.println("calculatedBrokerageAmount = " + calculatedBrokerageAmount);
     }
-
-
 }
