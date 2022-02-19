@@ -10,7 +10,7 @@ public class Article {
     private Article() {
     }
 
-    public Article(Long id, String title, String content, Long hit) {
+    private Article(Long id, String title, String content, Long hit) {
         this.id = id;
         this.title = title;
         this.content = content;
