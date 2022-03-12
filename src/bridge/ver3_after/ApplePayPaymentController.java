@@ -11,4 +11,8 @@ public class ApplePayPaymentController extends PaymentController{
     public String doPayment() {
         return USECASE + getPaymentService().doService();
     }
+
+    public String applePayUniqueFeature(){
+        return "애플페이만의 유니크한 기능";
+    }
 }

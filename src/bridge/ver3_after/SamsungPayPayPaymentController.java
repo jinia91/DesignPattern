@@ -11,4 +11,8 @@ public class SamsungPayPayPaymentController extends PaymentController{
     public String doPayment() {
         return USECASE + getPaymentService().doService();
     }
+
+    public String applePayUniqueFeature(){
+        return "삼성페이만의 유니크한 기능";
+    }
 }
