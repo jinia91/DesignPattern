@@ -9,6 +9,6 @@ public class ConverterFacade {
         Codec codec = CodecFactory.extract(newVideo);
         VideoFile read = BitrateReader.read(newVideo, codec);
         VideoFile convert = BitrateReader.convert(read, codec);
-        return new File("tmp");
+        return new File(convert.getName()+convert.getCodecType());
     }
 }

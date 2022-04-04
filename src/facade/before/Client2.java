@@ -2,7 +2,7 @@ package facade.before;
 
 import composite.File;
 
-public class Client {
+public class Client2 {
 
     public static void main(String[] args) {
         VideoFile newVideo = new VideoFile("new Video");
