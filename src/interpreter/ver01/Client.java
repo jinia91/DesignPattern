@@ -10,38 +10,34 @@ public class Client {
         String input = sc.nextLine();
 
         String[] tokens = input.split(" ");
-
         Stack<Integer> stack = new Stack<>();
 
         for (String token : tokens) {
-            int sz = token.length();
-            for (int i = 0; i < sz; i++) {
-                char c = token.charAt(i);
-                if (!Character.isDigit(c)) {
-                    if(c != '+' && c != '-' && c != '*' &&  c != '/'){
-                        throw new IllegalArgumentException("잘못된 값 입력");
+            switch (token) {
+                case "+":
+                    stack.push(stack.pop() + stack.pop());
+                    break;
+                case "-":
+                    Integer postNumber = stack.pop();
+                    Integer preNumber = stack.pop();
+                    stack.push(preNumber - postNumber);
+                    break;
+                case "*":
+                    stack.push(stack.pop() * stack.pop());
+                    break;
+                case "/":
+                    postNumber = stack.pop();
+                    preNumber = stack.pop();
+                    stack.push(preNumber / postNumber);
+                    break;
+                default:
+                    char[] chars = token.toCharArray();
+                    for (char aChar : chars) {
+                        if (!Character.isDigit(aChar)) {
+                            throw new IllegalArgumentException("잘못된 연산자 입력");
+                        }
                     }
-                    switch (c){
-                        case '+':
-                            stack.push(stack.pop() + stack.pop());
-                            break;
-                        case '-':
-                            Integer postNumber = stack.pop();
-                            Integer preNumber = stack.pop();
-                            stack.push(preNumber - postNumber);
-                            break;
-                        case '*':
-                            stack.push(stack.pop() * stack.pop());
-                            break;
-                        case '/':
-                            postNumber = stack.pop();
-                            preNumber = stack.pop();
-                            stack.push(preNumber / postNumber);
-                            break;
-                    }
-                } else {
                     stack.push(Integer.parseInt(token));
-                }
             }
         }
         System.out.println("result = " + stack.pop());
