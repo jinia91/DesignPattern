@@ -37,4 +37,5 @@
 ### Behavioral Patterns
 
 1. [COR](https://www.jiniaslog.co.kr/article/view?articleId=1702)
-2. ...Soon
+2. [Command](https://www.jiniaslog.co.kr/article/view?articleId=1752)
+3. ...Soon
