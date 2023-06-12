@@ -18,7 +18,7 @@
 
 ### Creational Patterns
 
-1. [Singleton](https://www.jiniaslog.co.kr/article/view?articleId=653)
+1. [Singleton](https://github.com/jinia91/DesignPattern/blob/main/doc/Singleton.md)
 2. [Factory Method](https://www.jiniaslog.co.kr/article/view?articleId=658)
 3. [Builder](https://www.jiniaslog.co.kr/article/view?articleId=702)
 4. [Prototype](https://www.jiniaslog.co.kr/article/view?articleId=703)
