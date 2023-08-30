@@ -21,7 +21,7 @@
 1. [Singleton](https://github.com/jinia91/DesignPattern/blob/main/doc/Singleton.md)
 2. [Factory Method](https://github.com/jinia91/DesignPattern/blob/main/doc/FactoryMethod.md)
 3. [Builder](https://github.com/jinia91/DesignPattern/blob/main/doc/Builder.md)
-4. [Prototype](https://www.jiniaslog.co.kr/article/view?articleId=703)
+4. [Prototype](https://github.com/jinia91/DesignPattern/blob/main/doc/Prototype.md)
 5. [Abstract Factory](https://www.jiniaslog.co.kr/article/view?articleId=804)
 
 ### Structural Patterns
