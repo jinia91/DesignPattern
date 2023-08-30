@@ -22,7 +22,7 @@
 2. [Factory Method](https://github.com/jinia91/DesignPattern/blob/main/doc/FactoryMethod.md)
 3. [Builder](https://github.com/jinia91/DesignPattern/blob/main/doc/Builder.md)
 4. [Prototype](https://github.com/jinia91/DesignPattern/blob/main/doc/Prototype.md)
-5. [Abstract Factory](https://www.jiniaslog.co.kr/article/view?articleId=804)
+5. [Abstract Factory](https://github.com/jinia91/DesignPattern/blob/main/doc/AbstractFactory.md)
 
 ### Structural Patterns
 
