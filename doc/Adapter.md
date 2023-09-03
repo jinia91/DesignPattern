@@ -208,6 +208,7 @@
 - java.util.Collections#enumeration()
 - java.io.InputStreamReader(InputStream)
 - 스프링 `HandlerAdapter`
+- 헥사고날아키텍처의 Adapter도 해당 패턴에 속한다.
 
 # [학습예제 코드는 깃허브에](https://github.com/jinia91/DesignPattern/tree/main/src/adapter)
 
