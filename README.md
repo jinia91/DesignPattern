@@ -26,7 +26,7 @@
 
 ### Structural Patterns
 
-1. [Adapter](https://www.jiniaslog.co.kr/article/view?articleId=806)
+1. [Adapter](https://github.com/jinia91/DesignPattern/blob/main/doc/Adapter.md)
 2. [Bridge](https://www.jiniaslog.co.kr/article/view?articleId=1002)
 3. [Composite](https://www.jiniaslog.co.kr/article/view?articleId=1102)
 4. [Facade](https://www.jiniaslog.co.kr/article/view?articleId=1252)
