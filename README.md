@@ -28,7 +28,7 @@
 
 1. [Adapter](https://github.com/jinia91/DesignPattern/blob/main/doc/Adapter.md)
 2. [Bridge](https://github.com/jinia91/DesignPattern/blob/main/doc/Bridge.md)
-3. [Composite](https://www.jiniaslog.co.kr/article/view?articleId=1102)
+3. [Composite](https://github.com/jinia91/DesignPattern/blob/main/doc/Composite.md)
 7. [Decorator](https://www.jiniaslog.co.kr/article/view?articleId=1652)
 4. [Facade](https://www.jiniaslog.co.kr/article/view?articleId=1252)
 5. [Proxy](https://www.jiniaslog.co.kr/article/view?articleId=1402)
