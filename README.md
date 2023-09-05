@@ -31,7 +31,7 @@
 3. [Composite](https://github.com/jinia91/DesignPattern/blob/main/doc/Composite.md)
 7. [Decorator](https://github.com/jinia91/DesignPattern/blob/main/doc/Decorator.md)
 4. [Facade](https://github.com/jinia91/DesignPattern/blob/main/doc/Facade.md)
-5. [Proxy](https://www.jiniaslog.co.kr/article/view?articleId=1402)
+5. [Proxy](https://github.com/jinia91/DesignPattern/blob/main/doc/Proxy.md)
 6. [Flyweight](https://www.jiniaslog.co.kr/article/view?articleId=1552)
 
 ### Behavioral Patterns
