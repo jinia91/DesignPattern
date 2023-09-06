@@ -36,6 +36,6 @@
 
 ### Behavioral Patterns
 
-1. [COR](https://www.jiniaslog.co.kr/article/view?articleId=1702)
+1. [COR](https://github.com/jinia91/DesignPattern/blob/main/doc/Cor.md)
 2. [Command](https://www.jiniaslog.co.kr/article/view?articleId=1752)
 3. ...Soon
